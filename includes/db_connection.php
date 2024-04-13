@@ -1,5 +1,5 @@
 <?php
-$servername = "172.30.100.93";
+$servername = "172.17.54.131";
 $username = "root";
 $password = "test-passord";
 $dbname = "ticket_oppdrag_uke12";
