@@ -1,5 +1,5 @@
 <?php
-$servername = "172.17.54.131";
+$servername = "172.30.159.131";
 $username = "root";
 $password = "test-passord";
 $dbname = "ticket_oppdrag_uke12";
@@ -12,4 +12,3 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 ?>
-<!-- ny kommentar -->
