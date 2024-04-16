@@ -15,9 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $conn->prepare($query);
 
 
-        $stmt = $conn->prepare($query);
-
-
         $stmt->bind_param("ss", $brukernavn, $passord);
 
 
